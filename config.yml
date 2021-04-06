@@ -1,0 +1,22 @@
+### WHETHER OR NOT show detials in Teleport Points list
+### 'NOTHING' will cover Location detials with '**'
+### 'EXPLORE' will show the location which player unlocked , other location still cover with '**'
+### 'ALL' will show Pricise Location in List
+ShowTeleportDetial: 
+  PreviewList: EXPLORE
+###Which Language u wish to use
+##Support en/zh_cn
+Language: en
+###option each function
+Function:
+  RespawnPoint:
+    Enable: false
+    ###if player respawn nearby or the point he set
+    ### 'true' means player will respawn nearby spawn point you set
+    ### 'false' means player will respawn in the point he set 
+    RespawnNearby: true
+    ### 'true' will find the respwan point which zone bind where player stand
+    ### 'false' will find closest point no matter player are
+    ZoneFirst: true
+  Particle:
+    Enable: true

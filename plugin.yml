@@ -1,0 +1,38 @@
+name: AncientWorld
+main: top.themeda.ancientworld.Core
+version: 0.1.7
+api-version: 1.13
+author: Jarno|QQ969756790
+commands:
+  ancientworld:
+    description: 主要指令
+    usage: |
+            /<command> reload 重新加载配置文件
+            /<command> tp help 查看帮助
+            /<command> zone help 查看帮助
+    aliases: [aw,ancient]
+permissions:
+  ancientworld.*:
+    default: false
+    children:
+      ancientworld.command.*:
+        children:
+          ancientworld.command.teleport.*:
+            children:
+              ancientworld.command.teleport.admin:
+                description: 'to use create and etc'
+                default: false
+              ancientworld.command.teleport.use:
+                description: 'to use /aw tp <name>'
+                default: false
+              ancientworld.command.teleport.list:
+                description: 'to use help and list'
+                default: false
+          ancientworld.command.zone:
+            description: 'to use create and etc'
+            default: false
+          ancientworld.command.unlockrequire:
+            description: 'to use create and etc'
+            default: false
+          ancientworld.command.reload:
+            default: false

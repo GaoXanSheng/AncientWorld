@@ -1,0 +1,92 @@
+HaveNoPermission: '你没有权限使用该指令哦'
+WrongCommand: '指令错误，你可以尝试：%cmd%'
+PluginReloaded: '配置文件重新加载成功！'
+PlayerNotFound: '没有找到名为 %player% 的玩家'
+PlayerNotOnline: '玩家 %player% 没有在线！'
+PlayerOnly: '指令 %cmd% 只能由玩家执行'
+Teleport:
+  PlayerOnly: '控制台无法使用该指令，你可以尝试使用 %cmd% '
+  UnlockedA: '你尚未解锁传送点 %name%'
+  UnlockedB: '%player% 还没有解锁传送点 %name%'
+  Colsed: '传送点 %name% 被暂时关闭了'
+  LocationNotExist: '不存在名为 %name% 的传送点，请检查传送点名称'
+  Success: '你被传送到了 %name%'
+  DeleteS: '传送点 %name% 已被成功删除'
+  Fail: '传送点 %name% 没有安全的着落地点'
+  FailA: '你没有足够的钱来传送到 %name%，你至少需要 %amount%'
+  FailB: '你没有足够的物品来传送到 %name%，你只是需要 %amount% 个 %item%'
+  CreateFailA: '已经存在名为 %name% 的传送点'
+  CreateSuccess: '成功创建传送点 %name% '
+  ItemSetS: '传送到 %name% 的消耗品成功设置为你主手所持的物品堆'
+  CostState: '传送到 %name% 的价格成功设置为 %amount%'
+  ItemCLearS: '成功将传送到 %name% 的所需物品设置为空'
+  UnlockedPointA: '已经为%player% 成功解锁 %name%'
+  UnlockedPointB: '成功解锁 %name%！'
+  LockedPointA: '成功锁定玩家 %player% 通往 %name% 的权限'
+  LockedPointB: '传送点 %name% 已被锁定'
+  PointState: '传送点 %name% 的状态被设置为 %state% ！'
+  PointLaunchState: '传送点 %name% 的弹射状态被设置为 %state% ！'
+  PrepareToLaunch: '按下并松开SHIFT键开始传送'
+  FailToLaunch: '头顶有遮挡，无法传送'
+  
+  Help1: '   -展示当前帮助信息'
+  Help2: '   -查看所有传送点信息'
+  Help3: '   -创建一个名为 <name> 的传送点'
+  Help4: '   -删除一个名为 <name> 的传送点'
+  Help5: '   -传送 [player/yourself] 到 <point>'
+  Help6: '   -为玩家解锁/锁定传送点'
+  Help7: '   -将手上的物品作为传送点的消耗品'
+  Help8: '   -开启/关闭传送点'
+  Help9: '   -设置传送点花销为 <amount>'
+  Help10: '   -设置传送点弹射模式<on/off>'
+  HelpList:
+  - '====表头===='
+  - '%list%'
+  - '====页脚===='
+  UnlockList:
+  - '以下传送点已为你解锁'
+  - '%list%'
+  List: 
+  - '====表头===='
+  - '%list%'
+  - '====页脚===='
+Zone:
+  AlreadyExist: '已经存在名为 %name% 的区域'
+  NotExist: '不存在名为 %name% 的区域'
+  CreateSuccess: '区域 %name% 创建成功! 现在可以为其添加可解锁的传送点'
+  AddPointS: '成功为区域%zone%添加点 %point%'
+  RemovePointS: '成功从区域%zone%删除点 %point% '
+  DeleteZoneS: '删除区域 %name% 成功'
+  LocationS: '你所在位置被设置为区域 %name% 的 %arg%'
+  Help1: '   -查看所有区域 '
+  Help2: '   -创建一个区域 <name>'
+  Help3: '   -列出进入区域 <name> 可解锁的所有传送点'
+  Help4: '   -为区域<name> 添加一个可解锁的传送点 <point> '
+  Help5: '   -移除区域<name> 可解锁的传送点 <point> '
+  Help6: '   -删除一个名为 <name> 的区域'
+  HelpList:
+  - '====表头===='
+  - '%list%'
+  - '====页脚===='
+  ZoneList: 
+  - '====表头===='
+  - '%list%'
+  - '====页脚===='
+
+######################
+######↓Key Word↓######
+######↓关 键 词↓######
+######################
+Player: '玩家'
+TeleportPoint: '传送点名称'
+Location: '  坐标: '
+PointName: '名称: '
+ConsumeItem: '§5物品§r'
+Cost: '       花费:'
+MoneySuffix: '￥'
+ZoneName: '区域: '
+UnlockPointList: '   传送点列表: '
+####################
+###DO NOT CHANGE!###
+####################
+version: en-2
